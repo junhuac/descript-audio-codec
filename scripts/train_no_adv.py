@@ -7,16 +7,16 @@ from pathlib import Path
 
 import argbind
 import torch
-from audiotools import AudioSignal
-from audiotools import ml
-from audiotools.core import util
-from audiotools.data import transforms
-from audiotools.data.datasets import AudioDataset
-from audiotools.data.datasets import AudioLoader
-from audiotools.data.datasets import ConcatDataset
-from audiotools.ml.decorators import timer
-from audiotools.ml.decorators import Tracker
-from audiotools.ml.decorators import when
+from audiotools.audiotools import AudioSignal
+from audiotools.audiotools import ml
+from audiotools.audiotools.core import util
+from audiotools.audiotools.data import transforms
+from audiotools.audiotools.data.datasets import AudioDataset
+from audiotools.audiotools.data.datasets import AudioLoader
+from audiotools.audiotools.data.datasets import ConcatDataset
+from audiotools.audiotools.ml.decorators import timer
+from audiotools.audiotools.ml.decorators import Tracker
+from audiotools.audiotools.ml.decorators import when
 from torch.utils.tensorboard import SummaryWriter
 
 import dac

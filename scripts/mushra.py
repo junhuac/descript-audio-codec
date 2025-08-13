@@ -5,7 +5,7 @@ from typing import List
 
 import argbind
 import gradio as gr
-from audiotools import preference as pr
+from audiotools.audiotools import preference as pr
 
 
 @argbind.bind(without_prefix=True)

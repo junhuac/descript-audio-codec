@@ -8,9 +8,9 @@ from pathlib import Path
 
 import argbind
 import numpy as np
-from audiotools import AudioSignal
+from audiotools.audiotools import AudioSignal
 
-from dac.__main__ import run
+from audiocodec.dac.__main__ import run
 
 
 def make_fake_data(data_dir=Path(__file__).parent / "assets"):

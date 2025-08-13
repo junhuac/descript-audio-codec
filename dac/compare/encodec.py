@@ -1,6 +1,6 @@
 import torch
-from audiotools import AudioSignal
-from audiotools.ml import BaseModel
+from audiotools.audiotools import AudioSignal
+from audiotools.audiotools.ml import BaseModel
 from encodec import EncodecModel
 
 

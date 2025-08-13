@@ -4,11 +4,11 @@ from pathlib import Path
 import argbind
 import numpy as np
 import torch
-from audiotools import AudioSignal
+from audiotools.audiotools import AudioSignal
 from tqdm import tqdm
 
-from dac import DACFile
-from dac.utils import load_model
+from audiocodec.dac import DACFile
+from audiocodec.dac.utils import load_model
 
 warnings.filterwarnings("ignore", category=UserWarning)
 

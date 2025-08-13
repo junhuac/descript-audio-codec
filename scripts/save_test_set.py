@@ -4,7 +4,7 @@ from pathlib import Path
 import argbind
 import torch
 from audiotools.core import util
-from audiotools.ml.decorators import Tracker
+from audiotools.audiotools.ml.decorators import Tracker
 from train import Accelerator
 
 import scripts.train as train

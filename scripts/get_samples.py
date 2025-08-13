@@ -2,13 +2,13 @@ from pathlib import Path
 
 import argbind
 import torch
-from audiotools import AudioSignal
-from audiotools.core import util
-from audiotools.ml.decorators import Tracker
+from audiotools.audiotools import AudioSignal
+from audiotools.audiotools.core import util
+from audiotools.audiotools.ml.decorators import Tracker
 from train import Accelerator
 from train import DAC
 
-from dac.compare.encodec import Encodec
+from audiocodec.dac.compare.encodec import Encodec
 
 Encodec = argbind.bind(Encodec)
 

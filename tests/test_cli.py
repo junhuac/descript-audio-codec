@@ -8,9 +8,9 @@ import argbind
 import numpy as np
 import pytest
 import torch
-from audiotools import AudioSignal
+from audiotools.audiotools import AudioSignal
 
-from dac.__main__ import run
+from audiocodec.dac.__main__ import run
 
 
 def setup_module(module):

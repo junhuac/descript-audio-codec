@@ -4,15 +4,15 @@ from typing import Union
 
 import numpy as np
 import torch
-from audiotools import AudioSignal
-from audiotools.ml import BaseModel
+from audiotools.audiotools import AudioSignal
+from audiotools.audiotools.ml import BaseModel
 from torch import nn
 
 from .base import CodecMixin
-from dac.nn.layers import Snake1d
-from dac.nn.layers import WNConv1d
-from dac.nn.layers import WNConvTranspose1d
-from dac.nn.quantize import ResidualVectorQuantize
+from audiocodec.dac.nn.layers import Snake1d
+from audiocodec.dac.nn.layers import WNConv1d
+from audiocodec.dac.nn.layers import WNConvTranspose1d
+from audiocodec.dac.nn.quantize import ResidualVectorQuantize
 
 
 def init_weights(m):

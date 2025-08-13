@@ -66,7 +66,7 @@ for more options.
 ### Programmatic Usage
 ```py
 import dac
-from audiotools import AudioSignal
+from audiotools.audiotools import AudioSignal
 
 # Download a model
 model_path = dac.utils.download(model_type="44khz")

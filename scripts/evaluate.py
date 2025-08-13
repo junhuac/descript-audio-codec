@@ -6,10 +6,10 @@ from pathlib import Path
 
 import argbind
 import torch
-from audiotools import AudioSignal
-from audiotools import metrics
+from audiotools.audiotools import AudioSignal
+from audiotools.audiotools import metrics
 from audiotools.core import util
-from audiotools.ml.decorators import Tracker
+from audiotools.audiotools.ml.decorators import Tracker
 from train import losses
 
 
